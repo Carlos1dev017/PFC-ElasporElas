@@ -5,6 +5,7 @@ import Comunidade from '../pages/Comunidade.vue'
 import Pesquisas from '../pages/Pesquisas.vue'
 import Informacoes from '../pages/Informacoes.vue'
 import Sobre from '../pages/Sobre.vue'
+import Cadastro from '../pages/Cadastro.vue'
 
 const routes = [
   { path: '/', component: Home },
@@ -12,7 +13,8 @@ const routes = [
   { path: '/comunidade', component: Comunidade },
   { path: '/pesquisas', component: Pesquisas },
   { path: '/informacoes', component: Informacoes },
-  { path: '/sobre', component: Sobre }
+  { path: '/sobre', component: Sobre },
+  { path: '/cadastro', component: Cadastro }
 ]
 
 const router = createRouter({
